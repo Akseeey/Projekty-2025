@@ -1,0 +1,76 @@
+h1, h2 {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.gora {
+    height: 80px;
+    background-color: #283618; 
+    line-height: 80px;
+    text-align: center;
+    color: white;
+    /* Zapobiega kurczeniu się belki */
+    flex-shrink: 0;
+}
+
+.srodek {
+    display: flex;
+    /* Powoduje, że kontener rośnie, aby wypełnić całą dostępną przestrzeń pionową */
+    flex-grow: 1;
+}
+
+article {
+    box-sizing: border-box;
+    width: 80%;
+    padding: 20px;
+    background-color: #fefae0;
+}
+
+article p {
+    text-indent: 25px;
+    line-height: 28px;
+}
+
+article ol {
+    list-style-type: upper-roman;
+}
+
+form {
+    box-sizing: border-box;
+    width: 20%;
+    padding: 25px;
+    background-color: #606c38; 
+    color: white;
+}
+
+label, input, button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+label, input, button, table {
+    width: 150px;
+}
+
+button, table {
+    margin-top: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid white;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
