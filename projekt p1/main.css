@@ -17,13 +17,11 @@ body {
     line-height: 80px;
     text-align: center;
     color: white;
-    /* Zapobiega kurczeniu się belki */
     flex-shrink: 0;
 }
 
 .srodek {
     display: flex;
-    /* Powoduje, że kontener rośnie, aby wypełnić całą dostępną przestrzeń pionową */
     flex-grow: 1;
 }
 
